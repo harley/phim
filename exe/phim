@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'phim'
+if ARGV.length == 0
+  puts "Syntax: phim phim"
+else
+  puts Phim::Search.new(ARGV[0]).titles
+end
