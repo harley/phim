@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'movies/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "movies"
+  spec.name          = "htmovies"
   spec.version       = Movies::VERSION
   spec.authors       = ["Harley Trung"]
   spec.email         = ["harley@harley.io"]
